@@ -11,8 +11,8 @@ import json
 # The URL of the website you want to scrape and the local path of the chromedriver you've downloaded
 url = "https://leetcode.com/studyplan/top-sql-50/"
 path = r"C:\Users\Varun Pravesh\Downloads\chromedriver-win64\chromedriver.exe"
-userName = "VarunPravesh"
-passWord = "varun123"
+userName = "ABC"
+passWord = "xyz"
 
 service = Service(executable_path=path)
 driver = webdriver.Chrome(service=service)  # We craete an instance of the webdriver 
